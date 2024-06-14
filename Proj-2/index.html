@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>UNIT CONVERTER</h1>
+    </header>
+    <main>
+        <section class="converter-section">
+            <h2>Length Converter</h2>
+            <form>
+                <label for="length-input">Enter a value:</label>
+                <input type="number" id="length-input" class="box" value="0">
+                <select id="length-unit-from" class="box">
+                    <option value="meter">Meter</option>
+                    <option value="kilometer">Kilometer</option>
+                    <option value="centimeter">Centimeter</option>
+                    <option value="millimeter">Millimeter</option>
+                    <option value="inch">Inch</option>
+                    <option value="foot">Foot</option>
+                    <option value="yard">Yard</option>
+                </select>
+                <select id="length-unit-to" class="box">
+                    <option value="meter">Meter</option>
+                    <option value="kilometer">Kilometer</option>
+                    <option value="centimeter">Centimeter</option>
+                    <option value="millimeter">Millimeter</option>
+                    <option value="inch">Inch</option>
+                    <option value="foot">Foot</option>
+                    <option value="yard">Yard</option>
+                </select>
+                <button type="button" id="length-convert-btn">Convert</button>
+                <p id="length-result"></p>
+            </form>
+        </section>
+        <section class="converter-section">
+            <h2>Weight Converter</h2>
+            <form>
+                <label for="weight-input">Enter a value:</label>
+                <input type="number" id="weight-input" class="box" value="0">
+                <select id="weight-unit-from" class="box">
+                    <option value="kilogram">Kilogram</option>
+                    <option value="gram">Gram</option>
+                    <option value="ounce">Ounce</option>
+                    <option value="pound">Pound</option>
+                </select>
+                <select id="weight-unit-to" class="box">
+                    <option value="kilogram">Kilogram</option>
+                    <option value="gram">Gram</option>
+                    <option value="ounce">Ounce</option>
+                    <option value="pound">Pound</option>
+                </select>
+                <button type="button" id="weight-convert-btn">Convert</button>
+                <p id="weight-result"></p>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
