@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        
+        <a href="#" class="logo">BeanBLISS<span>..</span></a>
+        <nav class="navbar">
+                <span id="close-menu-btn" class="material-symbols-outlined">menu</span>
+                <ul class="menu-links">
+                    <li><a href="#home" class="link">Home</a></li>
+                    <li><a href="#products" class="link">Products</a></li>
+                    <li><a href="#testimonials" class="link">Testimonials</a></li>
+                    <li><a href="#about" class="link">About</a></li>
+                    <li><a href="#contact" class="link">Contact</a></li>
+                </ul>
+            <span id="menu-icon" class="material-symbols-outlined">close</span>
+        </nav>
+    </header>
+
+    <section class="hero-section" id="home">
+        <div class="content">
+            <h1>Start your day with fresh coffee</h1>
+            <p>
+                Coffee is a popular and beloved beverage enjoyed by
+                people around the world. Awaken your senses with a steaming cup of liquid motivation.
+            </p>
+            <button id="btn">Order Now</button>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Us</span></h2>
+            <p>About BeanBLISS..
+
+                Welcome to BeanBLISS.., where every cup tells a story and every visitor becomes a part of our vibrant community. Situated in the heart of Ambala, our cozy coffee shop is dedicated to the art of crafting exceptional coffee experiences. From the moment you step through our doors, you'll be enveloped in the rich aromas of freshly brewed coffee and the inviting ambiance of our welcoming space. At BeanBLISS.., we believe that coffee is more than just a beverage - it's a catalyst for connection, creativity, and conversation. Whether you're a coffee aficionado seeking the perfect pour-over or a casual visitor in need of a quick caffeine fix, our knowledgeable baristas are here to ensure that your coffee experience exceeds expectations. Join us at BeanBLISS.. and discover the perfect blend of quality coffee, community spirit, and heartfelt hospitality.</p>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h2 class="heading">Coffees</h2>
+
+        <div class="coffee-container">
+            
+            <div class="coffeeBox">
+                <img src="coffeea.jpg" alt="">
+                <div class="coffeeInfo">
+                    <h4>Cappuccino</h4>
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            coffee
+                        </span>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="coffeeBox">
+                <img src="coffeeb.jpg" alt="">
+                <div class="coffeeInfo">
+                    <h4>Latte Macchiato</h4>
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            coffee
+                        </span>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="coffeeBox">
+                <img src="coffeec.jpg" alt="">
+                <div class="coffeeInfo">
+                    <h4>Flat White</h4>
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            coffee
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+    <section class="reviews" id="testimonials">
+        <h2 class="heading">Testimonials</h2>
+        <div class="reviews-container">
+            <div class="reviews-box">
+                <span class="material-symbols-outlined">
+                    person
+                    </span>
+                <h3>Testimonial 1</h3>
+                <p>Fantastic coffee selection, cozy ambiance, and friendly service make every visit a delightful experience.</p>
+                <a href="#" class="btns">Read More</a>
+            </div>
+
+            <div class="reviews-box">
+                <span class="material-symbols-outlined">
+                    person
+                    </span>
+                <h3>Testimonial 2</h3>
+                <p>The aromatic brews are complemented by scrumptious pastries, creating a perfect morning retreat.</p>
+                <a href="#" class="btns">Read More</a>
+            </div>
+
+            <div class="reviews-box">
+                <span class="material-symbols-outlined">
+                    person
+                    </span>
+                <h3>Testimonial 3</h3>
+                <p>Relaxing atmosphere, top-notch baristas, and consistently excellent coffee—my favorite spot for morning inspiration.</p>
+                <a href="#" class="btns">Read More</a>
+            </div>
+
+            <div class="reviews-box">
+                <span class="material-symbols-outlined">
+                    person
+                    </span>
+                <h3>Testimonial 4</h3>
+                <p>Exceptional latte art, soothing music, and a welcoming vibe—a haven for coffee aficionados everywhere.</p>
+                <a href="#" class="btns">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Us</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="submit" value="Send message" class="btns">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/" target="_blank"><box-icon type='logo' name='linkedin'></box-icon></a>
+            <a href="https://www.instagram.com/" target="_blank"><box-icon name='instagram-alt' type='logo' ></box-icon></a>
+            <a href="https://www.facebook.com" target="_blank"><box-icon name='facebook-circle' type='logo' ></box-icon></a>
+            <a href="https://www.google.com/maps" target="_blank"><box-icon type='solid' name='map'></box-icon></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#">Products</a>
+            </li>
+            <li>
+                <a href="#">About Us</a>
+            </li>
+            <li>
+                <a href="#">Contact Us</a>
+            </li>
+            <li>
+                <a href="#">Privacy Policy</a>
+            </li>
+        </ul>
+    </footer>
+    
+</body>
+<script src="script.js"></script>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</html>
