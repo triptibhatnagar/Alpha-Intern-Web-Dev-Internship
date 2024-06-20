@@ -138,7 +138,7 @@
         <div class="spotify-playlists popular-albums">
             <h2>Popular Albums</h2>
             <div class="list">
-                <div class="item">
+                <div class="item" id="item1">
                     <img src="images/Album1.jpg" alt="" class="img">
                     <div class="play">
                         <span class="fa fa-play"></span>
@@ -147,7 +147,7 @@
                     <p>Various Artists 2007 : 10 songs, 47 min 20 sec</p>
                 </div>
 
-                <div class="item">
+                <div class="item" id="item2">
                     <img src="images/Album2.jpg" alt="" class="img">
                     <div class="play">
                         <span class="fa fa-play"></span>
@@ -171,7 +171,7 @@
                     <div class="play">
                         <span class="fa fa-play"></span>
                     </div>
-                    <h4>Sajni (From "Laapataa Ladies")</h4>
+                    <h4>Sajni (Laapataa Ladies)</h4>
                     <p>Ram Sampath, Arijit Singh, Prashant Pandey 2024 : 1 song, 2 min 50 sec</p>
                 </div>
 
@@ -342,15 +342,15 @@
     </div>
 
     <div class="bottom">
-        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
         <div class="icons">
             <span class="fa  fa-3x fa-step-backward"></span>
-            <span class="fa  fa-3x fa-play-circle"></span>
+            <span class="fa  fa-3x fa-play-circle" id="masterPlay"></span>
             <span class="fa  fa-3x fa-step-forward"></span>
         </div>
 
         <div class="songInfo">
-            <img src="images/play.gif" width="50px" alt=""> Tum Se Hi - Mohit Chauhan, Pritam Chakraborty
+            <img src="images/play.gif" width="50px" alt="" id="gif"> Tum Se Hi - Mohit Chauhan, Pritam Chakraborty
         </div>
     </div>
 
@@ -363,8 +363,7 @@
             <button type="button">Sign Up Free</button>
         </div>
     </div>
-
-    <!-- api -->
+    
     <script src="https://kit.fontawesome.com/ef9a692198.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>

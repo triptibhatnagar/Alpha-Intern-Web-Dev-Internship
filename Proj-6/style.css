@@ -65,7 +65,7 @@ body {
 
 .sidebar .policies {
     position: absolute;
-    bottom: 200px;
+    bottom: 130px;
 }
 
 .sidebar .policies ul {
@@ -182,34 +182,25 @@ body {
     overflow: hidden;
 }
 
-/* .spotify-playlists .list .item {
-    min-width: 40px;
-    width: 60px;
-    padding: 15px;
-    background-color: #181818;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all ease 0.4s;
-} */
-.spotify-playlists .list .item:hover {
+.spotify-playlists .list .item:hover{
     background-color: #252525;
     border-radius: 6px;
     cursor: pointer;
 }
 
-.spotify-playlists .list .item img {
-    width: 250px;
+.spotify-playlists .list .item img{
+    width: 260px;
     border-radius: 6px;
     margin-bottom: 10px;
 }
 
-.spotify-playlists .list .item p {
+.spotify-playlists .list .item p{
     color: #837676;
     line-height: 20px;
     font-weight: 500;
 }
 
-.spotify-playlists .list .item h4 {
+.spotify-playlists .list .item h4{
     color: #fff;
     font-size: 20px;
     font-weight: 600;
@@ -242,10 +233,6 @@ body {
     border-radius: 100%;
 }
 
-.popular-albums .list .item {
-    width: 250px;
-}
-
 .spotify-playlists hr {
     margin: 70px 0px 0px;
     border-color: #636363;
@@ -259,8 +246,7 @@ body {
     background: linear-gradient(to right,#ae2896, #509bf5);
     padding: 15px 40px;
     display : none;
-    /* display: flex;
-    justify-content: space-between; */
+    justify-content: space-between;
 }
 
 .preview h6 {
@@ -311,6 +297,8 @@ body {
 #myProgressBar {
     width: 80vw;
     text-align: center;
+    cursor: pointer;
+    accent-color: #13a847;
 }
 
 .songInfo {
@@ -320,5 +308,5 @@ body {
 
 .songInfo img {
     opacity: 0;
-    transition: opacity 1s ease-in;
+    transition: opacity 0.4s ease-in;
 }
